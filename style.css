@@ -1,0 +1,82 @@
+/* 
+==============
+Fonts
+==============
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+ 
+ 
+ /* font-family: 'Manrope', sans-serif; */
+
+ /* 
+==============
+Global Style
+==============
+ */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: hsl(218, 23%, 16%);
+ font-family: 'Manrope', sans-serif;
+ min-height: 80vh;
+ text-align: center;
+}
+
+h1 {
+ font-size: 2rem;
+ margin-bottom: 1.5em;
+ color: #fff;
+}
+
+p {
+ font-size: 1rem;
+ color: hsl(150, 100%, 66%);
+ text-transform: uppercase;
+ margin-bottom: 1.5em;
+}
+
+ /* 
+==============
+Advice card
+==============
+ */
+.advice-card {
+ background: hsl(217, 19%, 38%);
+ margin: 20vh auto 0 auto;
+ padding: 2rem;
+ width: 95%;
+ max-width: 550px;
+ border-radius: 7.5px;
+}
+
+.divider {
+ display: flex;
+ align-items: center;
+ width: 100%;
+}
+
+hr {
+ width: 100px;
+}
+
+.rollDice {
+ background:  hsl(150, 100%, 66%);
+ border-radius: 50%;
+ padding: 15px;
+ border: none;
+ margin-top: -15px;
+ cursor: pointer;
+}
+
+.dice {
+ transition: transform .7s ease-in-out;
+}
+
+
+.dice:hover {
+ transform: rotate(360deg);
+}
