@@ -8,10 +8,10 @@ async function rollDice(){
   const response = await data.json()
   // const transforming 
   document.querySelector('h1').innerText = response.slip.advice
-  document.querySelector('span').innerText = harshTag + response.slip.id
+  document.querySelector('span').innerText = "Advice " + harshTag + response.slip.id
   document.querySelector('.dice').style.transform = "rotate(360deg)"
 }
 
 setInterval(async() => {
   await rollDice()
-}, 3500)
+}, 3700)
