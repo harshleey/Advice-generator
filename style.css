@@ -22,7 +22,7 @@ Global Style
 body {
  background-color: hsl(218, 23%, 16%);
  font-family: 'Manrope', sans-serif;
- height: 75vh;
+ min-height: 75vh;
  text-align: center;
  display: flex;
  flex-direction: column;
@@ -52,7 +52,7 @@ Advice card
  background: hsl(217, 19%, 38%);
  margin: 20vh auto 0 auto;
  padding: 2rem;
- width: 95%;
+ width: 90%;
  max-width: 550px;
  border-radius: 7.5px;
 }
