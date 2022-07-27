@@ -22,12 +22,8 @@ Global Style
 body {
  background-color: hsl(218, 23%, 16%);
  font-family: 'Manrope', sans-serif;
- min-height: 75vh;
+ min-height: 80vh;
  text-align: center;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center
 }
 
 h1 {
@@ -78,9 +74,4 @@ hr {
 
 .dice {
  transition: transform .7s ease-in-out;
-}
-
-
-.dice:hover {
- transform: rotate(360deg);
 }

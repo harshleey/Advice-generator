@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', rollDice)
+// document.querySelector('button').addEventListener('click', rollDice)
 
 async function rollDice(){
   const url = 'https://api.adviceslip.com/advice';
@@ -14,4 +14,4 @@ async function rollDice(){
 
 setInterval(async() => {
   await rollDice()
-}, 3000)
+}, 3500)
